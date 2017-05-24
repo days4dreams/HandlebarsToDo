@@ -1,0 +1,53 @@
+body {
+	text-align: center; 
+  padding:  50px 15px;
+}
+
+p{
+  font-family: "Roboto", "Merriweather", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+
+h2{
+  font-family: "Roboto", "Merriweather", sans-serif;
+  font-size: 24px;
+  padding: 10px;
+}
+
+button {
+  font-family: "Roboto", "Merriweather", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  position: relative;
+  color: white;
+  z-index: 1;
+  /* display: block; */
+  width: 200px;
+  margin: 30px auto;
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #0099cc;
+  box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
+}
+
+input {
+  border-radius: 4px;
+  padding: 8px 10px;
+  border: 2px solid #D7D7D7;
+  margin: 8px;
+  font-size: 12px;
+  width: 260px;
+}
+
+input:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}

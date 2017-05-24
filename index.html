@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>To-Do List with Handlebars</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--required css to be inside folder-->
+</head>
+<body>
+	
+<h2>What do you need to do today?</h2>
+	<form action="">
+		<input id="item" type="text" placeholder="Enter a to-do item">
+		<button type="submit" id="submitBtn">Add item to list</button>
+	</form>
+	
+
+	<p>To-do list:</p>
+	<ul class="groceries" id="groceries">
+	  <!-- handlebars template for a list item -->
+	   		<script id="grocery-template" type="text/x-handlebars-template">
+	   		<li><p>
+	   		{{newItem}}</p>
+	   		</li></script>
+	</ul>
+
+	<!--required js to be inside folder-->
+	<script src="js/jquery-3.0.0.js"></script>
+	<script src="js/handlebars-v4.0.5.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
